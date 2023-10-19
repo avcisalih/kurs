@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(images/5540822.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+/* Header Css */
+.header {
+    background-color: rgba(245, 222, 179, 0.719);
+    display: flex;
+    height: 110px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+}
+
+.header .title h1 {
+    color: rgb(7, 7, 7);
+}
+
+.header .title h1 span {
+    color: green;
+}
+
+.header .nav ul li {
+    list-style-type: none;
+}
+
+.header .nav ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgba(2, 53, 5, 0.58);
+    font-size: 25px;
+    
+
+}
+
+.header .nav ul li a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* header bitiş */
+
+
+/* ana içerik alanı */
+
+
+.main {
+    height: 50vh;
+   width: 100%;
+   /* margin-top: 500px;  */
+   display: flex;
+   justify-content: center;
+   
+}
+
+.main .info {
+    height: 100%;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.main .info h1{
+    color: rgb(0, 0, 0);
+    
+}
+
+.main .info p{
+    color: black;
+    line-height: 35px;
+    letter-spacing: 1px;
+    background-color: rgba(222, 184, 135, 0.719);
+
+
+}
+
+.main .info p b{
+    color: rgb(3, 3, 3);
+    text-transform: capitalize;
+}
+
+
+.main .info button{
+    border: none;
+    background-color:aquamarine;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.main .info button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.637);
+    color: yellow;
+}
+
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.table-container table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: burlywood;
+    }
+
+    th, td {
+        padding: 8px;
+        border: 1px solid black;
+        
+
+
+    }
+
+    th{
+        background-color: rgba(218, 165, 32, 0.678);
+        color: rgb(0, 0, 0);
+    }
+
+
+
+/* ana ierik bitiş */
+
+
+/* form alanı */
+
+.form-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    margin-top: 100px;
+    background-color: burlywood;
+
+}
+
+label {
+    font-weight: bold;
+
+}
+
+#ad,
+#email,
+#mesaj{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+
+}
+
+.btn{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.637);
+    color: yellow;
+
+}
+/* form bitiş */
+
+
+/* footer alanı */
+.footer{
+    background-color: black;
+    color: rgb(21, 165, 21);
+    height: 50px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* footer bitiş */
+
+
+@media (max-width:800px){
+    .header .nav {
+        display: none;
+    }
+
+    .header{
+        background-color: aquamarine;
+    }
+}
+
