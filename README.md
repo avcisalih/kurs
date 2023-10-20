@@ -1,1 +1,1 @@
-# schol
+# kurs
